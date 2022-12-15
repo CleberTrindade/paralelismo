@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Paralelismo.Contas.Application\Paralelismo.Contas.Application.csproj" />
     <ProjectReference Include="..\Paralelismo.Contas.Domain\Paralelismo.Contas.Domain.csproj" />
-    <ProjectReference Include="..\Paralelismo.Contas.Infrastructure\Paralelismo.Contas.Infra.Data.csproj" />
+    <ProjectReference Include="..\Paralelismo.Contas.Infra.Data\Paralelismo.Contas.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

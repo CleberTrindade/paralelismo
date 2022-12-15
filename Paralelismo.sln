@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contas", "Contas", "{6FEB00E2-2212-484A-8947-B76EA9B0114C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paralelismo.Contas.Domain", "src\Services\Contas\Paralelismo.Contas.Domain\Paralelismo.Contas.Domain.csproj", "{F6C9E1C7-70FD-4D5C-A6B0-5A5578A065EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paralelismo.Contas.Domain", "src\Services\Contas\Paralelismo.Contas.Domain\Paralelismo.Contas.Domain.csproj", "{F6C9E1C7-70FD-4D5C-A6B0-5A5578A065EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paralelismo.Contas.Application", "src\Services\Contas\Paralelismo.Contas.Application\Paralelismo.Contas.Application.csproj", "{69525F14-3361-4906-8B3A-96F4050B77BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paralelismo.Contas.Application", "src\Services\Contas\Paralelismo.Contas.Application\Paralelismo.Contas.Application.csproj", "{69525F14-3361-4906-8B3A-96F4050B77BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paralelismo.Contas.Infra.Data", "src\Services\Contas\Paralelismo.Contas.Infrastructure\Paralelismo.Contas.Infra.Data.csproj", "{8704BD6C-7828-47CC-9004-9FBBD7C80C43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paralelismo.Contas.Api", "src\Services\Contas\Paralelismo.Contas.Api\Paralelismo.Contas.Api.csproj", "{AE617406-45FB-4259-8AE6-669B88CE6863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paralelismo.Contas.Api", "src\Services\Contas\Paralelismo.Contas.Api\Paralelismo.Contas.Api.csproj", "{AE617406-45FB-4259-8AE6-669B88CE6863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paralelismo.Contas.Infra.IoC", "src\Services\Contas\Paralelismo.Contas.Infra.IoC\Paralelismo.Contas.Infra.IoC.csproj", "{99EE4456-23E3-4A1A-B741-EDC8292F3779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paralelismo.Contas.Infra.IoC", "src\Services\Contas\Paralelismo.Contas.Infra.IoC\Paralelismo.Contas.Infra.IoC.csproj", "{99EE4456-23E3-4A1A-B741-EDC8292F3779}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paralelismo.Contas.Infra.Data", "src\Services\Contas\Paralelismo.Contas.Infra.Data\Paralelismo.Contas.Infra.Data.csproj", "{2013D946-A8F3-4C98-BFC5-B18616792507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,6 @@ Global
 		{69525F14-3361-4906-8B3A-96F4050B77BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69525F14-3361-4906-8B3A-96F4050B77BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69525F14-3361-4906-8B3A-96F4050B77BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8704BD6C-7828-47CC-9004-9FBBD7C80C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8704BD6C-7828-47CC-9004-9FBBD7C80C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8704BD6C-7828-47CC-9004-9FBBD7C80C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8704BD6C-7828-47CC-9004-9FBBD7C80C43}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AE617406-45FB-4259-8AE6-669B88CE6863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE617406-45FB-4259-8AE6-669B88CE6863}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE617406-45FB-4259-8AE6-669B88CE6863}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +43,10 @@ Global
 		{99EE4456-23E3-4A1A-B741-EDC8292F3779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99EE4456-23E3-4A1A-B741-EDC8292F3779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99EE4456-23E3-4A1A-B741-EDC8292F3779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2013D946-A8F3-4C98-BFC5-B18616792507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2013D946-A8F3-4C98-BFC5-B18616792507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2013D946-A8F3-4C98-BFC5-B18616792507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2013D946-A8F3-4C98-BFC5-B18616792507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,9 +56,9 @@ Global
 		{6FEB00E2-2212-484A-8947-B76EA9B0114C} = {9C34B5AC-C7D7-4532-845A-1D53C55509B1}
 		{F6C9E1C7-70FD-4D5C-A6B0-5A5578A065EA} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
 		{69525F14-3361-4906-8B3A-96F4050B77BD} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
-		{8704BD6C-7828-47CC-9004-9FBBD7C80C43} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
 		{AE617406-45FB-4259-8AE6-669B88CE6863} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
 		{99EE4456-23E3-4A1A-B741-EDC8292F3779} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
+		{2013D946-A8F3-4C98-BFC5-B18616792507} = {6FEB00E2-2212-484A-8947-B76EA9B0114C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E57F853-4B74-4718-A3CF-954017BB30A5}
